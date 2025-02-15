@@ -1,7 +1,9 @@
 // loop 
-for (const key in object) {
-    if (Object.prototype.hasOwnProperty.call(object, key)) {
-        const element = object[key];
-        
-    }
+// print sum 1 to 5
+let sum = 0;
+let i = 1;
+while (i <= 5) {
+    sum = sum + i;
+    i++;
 }
+console.log(sum);
