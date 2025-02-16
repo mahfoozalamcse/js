@@ -39,4 +39,22 @@ do {
 } while (k <= 3);
 // console.log(total);
 
+// multiply each element in array and store in another number
+let multiplyarr = [];
+let number = [2, 4, 6];
+for (let index = 0; index < number.length; index++) {
+  //  element = number[index]*2;
+  //  multiplyarr.push(element);
+ 
+  multiplyarr.push(number[index]*2);
+}
+console.log(multiplyarr);
 
+// take city and push in cityList
+let citeis = ["Paris", "London", "New-York", "Tokyo"];
+let cityList = [];
+for (let c = 0; c < citeis.length; c++) {
+  const element = citeis[c];
+  cityList.push(element);
+}
+console.log(cityList);
