@@ -79,5 +79,51 @@ for (const city in cityPopulation) {
 }
 console.log(worldPopulation);
 
-// use for each loop and store till find Dubai stop
+// use for each loop and store till find chai stop
+let tea2 = ["oolong tea", "masala tea", "jaismin tea", "hot tea", "chai", "badam tea"];
+let avilableTea = [];
+tea2.forEach(function (tea)  {
+    if (tea === "chai") {
+        return;
+    }
+    avilableTea.push(tea);
+    
+});
+console.log(avilableTea);
+
+// use for each itrate and skipe till finde not travel city and store in travel city
+let cities = ["Berlin", "Tokyo", "Bengluru", "Sydney", "Jaipur"];
+let travelcities = [];
+cities.forEach(city => {
+    if (city === "Sydney") {
+        return;
+    }
+    travelcities.push(city);
+});
+console.log(travelcities);
+
+
+// take array multiply each element with 2 and scipe when find 7 and store other variable
+
+let numbers = [2, 5, 7, 9];
+let doubleNum = [];
+for(let i=0; i<numbers.length; i++){
+    if (numbers[i] === 7) {
+        continue;
+    }
+    doubleNum.push(numbers[i]*2);
+}
+console.log(doubleNum);
+
+// take array and copy in another array and when length greater than 5 than stop
+let chai1 = ["harbaltea", "oolongtea", "jaismintea", "hotTea", "maslaTea", "blacktea"];
+let newChai = [];
+for(let i=0; i<chai1.length; i++){
+    if (chai1.length > 5) {
+        break;
+    }
+   newChai.push(chai1[i]);
+}
+console.log(newChai);
+
 
