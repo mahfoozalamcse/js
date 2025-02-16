@@ -18,14 +18,25 @@ while (j>0) {
 console.log(countDown);
 
 // let teacollection and use promt to add
-let teacollection = [];
-let tea;
-do {
-   tea = prompt(`Enter your favourite tea (type "stop" to finish)`);
-   if (tea !== "stop") {
-     teacollection.push(tea);
-   } 
-} while (tea !== "stop");
+// let teacollection = [];
+// let tea;
+// do {
+//    tea = prompt(`Enter your favourite tea (type "stop" to finish)`);
+//    if (tea !== "stop") {
+//      teacollection.push(tea);
+//    } 
+// } while (tea !== "stop");
 
 // here not run in node js use browswer and test
+
+
+// sum 1 to 3 use while loop
+let total = 0;
+let k = 1;
+do {
+  total += k;
+  k++;
+} while (k <= 3);
+// console.log(total);
+
 
