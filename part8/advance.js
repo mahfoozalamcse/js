@@ -6,7 +6,7 @@ for (let index = 0; index < 9; index++) {
      
 }
 
-// asysncronous (also say like paus and execute)
+// asysncronous (also say like paus and execute) not follow sequence
 console.log("Hello");
 function sayHello(){
     console.log("I would like to say hello ");
