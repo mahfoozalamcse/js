@@ -25,6 +25,7 @@ async function getData() {
       console.log(postdata);
       console.log(commentData);
       
+      
       console.log("fetch completed... ");
       
     } catch (error) {
