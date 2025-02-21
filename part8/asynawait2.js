@@ -24,8 +24,7 @@ async function getData() {
    const [postdata, commentData] = await Promise.all([fetchPostData(), fetchCommentData()])
       console.log(postdata);
       console.log(commentData);
-      
-      
+
       console.log("fetch completed... ");
       
     } catch (error) {
