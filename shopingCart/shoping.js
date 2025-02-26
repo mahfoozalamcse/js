@@ -63,6 +63,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
        })
     }else{
         emptyCartMassage.classList.remove("hidden");
+        totalPriceDisplay.textContent =`$0.00`;
     }
    }
    checkOutbtn.addEventListener('click', () =>{
