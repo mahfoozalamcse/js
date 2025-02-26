@@ -52,6 +52,7 @@ document.addEventListener('DOMContentLoaded', () =>{
     function saveExpensesToLocal() {
         localStorage.setItem("expenses", JSON.stringify(expenses));
     }
+    
 
     function updateTotal() {
         totalAmount = calculateTotal();
