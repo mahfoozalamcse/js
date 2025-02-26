@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     const API_KEY = "bffafbb91b9ccde2c5c1dfe6a0ecb16a"; // move forword than add in env variable
 
     getWeatherButton.addEventListener('click', async() =>{
-        const city = cityInput.value.trime()
+        const city = cityInput.value.trim();
         if(!city) return;
         // remember server may through error when request third party
         // server or data base is another continent
@@ -26,11 +26,33 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
     async function fetchWeatherdata(city) {
         // get the data
-        const url =`https://api.openweathermap.org/data/3.0/onecall?lat=33.44&lon=-94.04&appid={API Key}`
+      const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;
+
+      const response = await fetch(url)
+      console.log(typeof response);
+      console.log("RESPONSE", response);
+
+      if (!response.ok) {
+        throw new Error("City is not found ");
+      }
+      const data = await response.json()
+      return data;
     }
 
-    function displayWeatherdata(weatherdata) {
+    function displayWeatherdata(data) {
         // display
+        console.log(data); // give response 3rd party spend 2 days understand
+        const {name, main, weather} = data;
+        cityNameDisplay.textContent = name;
+
+
+
+        // unlock the dislay
+        weatherInfo.classList.remove('hidden');
+        errorMassage.classList.add('hidden');
+        tempreatureDisplay.textContent = `Temperature : ${main.temp}`
+        descriptionDisplay.textContent = `Weather : ${weather[0].description}`
+
     }
 
     function showError() {
