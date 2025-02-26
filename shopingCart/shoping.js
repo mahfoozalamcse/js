@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
       const product =  products.find(p => p.id === productId)
       addTocard(product)
       //console.log(product);
-      
+
       
     }
     
