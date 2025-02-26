@@ -5,9 +5,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     const cityNameDisplay = document.getElementById("city-name")
     const tempreatureDisplay = document.getElementById("tempreture")
     const descriptionDisplay = document.getElementById("description")
-    const errorMassage = document.getElementById("errormassage")
-
-    const API_KEY = "bffafbb91b9ccde2c5c1dfe6a0ecb16a"; // move forword than add in env variable
+   // const errorMassage =  // move forword than add in env variable
 
     getWeatherButton.addEventListener('click', async() =>{
         const city = cityInput.value.trim();
