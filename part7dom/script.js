@@ -17,6 +17,7 @@ if (document.getElementById("counter")) {
 
     document.getElementById("reset").addEventListener("click", function () {
         count = 0;
+        
         counter.textContent = count;
     });
 }
