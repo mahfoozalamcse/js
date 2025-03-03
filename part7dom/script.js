@@ -5,6 +5,7 @@ if (document.getElementById("counter")) {
 
     document.getElementById("increment").addEventListener("click", function () {
         count++;
+        
         counter.textContent = count;
     });
 
