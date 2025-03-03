@@ -1,6 +1,7 @@
 // Counter App (index.html)
 if (document.getElementById("counter")) {
     let counter = document.getElementById("counter");
+    
     let count = 0;
 
     document.getElementById("increment").addEventListener("click", function () {
