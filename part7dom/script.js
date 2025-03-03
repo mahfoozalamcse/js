@@ -12,6 +12,7 @@ if (document.getElementById("counter")) {
 
     document.getElementById("decrement").addEventListener("click", function () {
         count--;
+        
         counter.textContent = count;
     });
 
