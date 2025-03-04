@@ -24,10 +24,12 @@ if (document.getElementById("counter")) {
 }
 
 // Dynamic List (page2.html)
+
 if (document.getElementById("itemList")) {
     let input = document.getElementById("itemInput");
     let addItemBtn = document.getElementById("addItem");
     let itemList = document.getElementById("itemList");
+    
 
     addItemBtn.addEventListener("click", function () {
         let itemText = input.value.trim();
