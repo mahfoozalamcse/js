@@ -60,6 +60,7 @@ document.addEventListener('DOMContentLoaded', () =>{
     }
 
     expanseList.addEventListener('click', (e) =>{
+        
         if(e.target.tagName === "BUTTON"){
          const expenceId = parseInt(e.target.getAttribute('data-id'))
          expenses = expenses.filter(expense => expense.id !== expenceId)
