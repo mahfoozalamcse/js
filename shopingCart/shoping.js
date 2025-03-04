@@ -66,6 +66,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
         totalPriceDisplay.textContent =`$0.00`;
     }
    }
+   
    checkOutbtn.addEventListener('click', () =>{
     cart.length = 0;
     alert("Chekout succesfull mahfooz...");
