@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () =>{
                 name : name,
                 amount : amount,
             }
+            
             expenses.push(newExpenses)
             saveExpensesToLocal();
             renderExpenses();
