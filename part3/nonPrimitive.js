@@ -42,6 +42,7 @@ console.log("1"+ 1);
 console.log(1 + "1");
 console.log(1 + true);
 
+
 let value = "2abc";
 console.log(Number(value));
 console.log(typeof NaN);
