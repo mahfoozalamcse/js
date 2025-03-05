@@ -11,6 +11,7 @@ console.log(sum);
 
 // write array countDown and push element in array 
 let countDown = [];
+
 let j = 5;
 while (j>0) {
     countDown.push(j);
