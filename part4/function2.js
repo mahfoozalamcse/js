@@ -19,6 +19,7 @@ function createTeaMaker(name){
         return `Making ${teaType} and strange js ${name} is ${score}`
     };
 }
+
 let teaMake = createTeaMaker("mahfooz");
 let result = teaMake("Lamon tea");
 console.log(result);
