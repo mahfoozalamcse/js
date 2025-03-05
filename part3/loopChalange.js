@@ -43,6 +43,7 @@ for (const element of num2) {
 }
 console.log(newNum2);
 
+
 // use for in loop contain population and store till find berlin stop store in newPopulaton
 let cityPopulation = {
     "London" : 129000,
