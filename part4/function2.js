@@ -1,5 +1,6 @@
 // take function inside function
 // passed function as variable
+
 function makeTea(typeofTea){
     return `make tea ${typeofTea}`
 };
