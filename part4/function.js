@@ -23,6 +23,7 @@ function orderTea(typeOfTea){
     }
     return confirmOrder(typeOfTea);
 }
+
 let result = orderTea("Black tea");
 console.log(result);
 
