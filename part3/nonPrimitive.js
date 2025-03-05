@@ -1,6 +1,7 @@
 let userName = {};
 
 console.log(userName);
+
 console.log(typeof userName);  
 
 const obj = { // they take large memory reserve and use multiple 
