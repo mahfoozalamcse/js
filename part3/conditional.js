@@ -15,6 +15,7 @@ if (num1 > num2) {
 // check string is equal to another string
 
 let userName = "Mahfooz";
+
 let userName2 = "Alam";
 
 if (userName === userName2) {
