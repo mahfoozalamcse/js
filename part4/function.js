@@ -12,7 +12,7 @@ function makeTea(typeOfTea){
    return `Making ${typeOfTea}`
 }
 
-
+ 
 let tea = makeTea("Lamon Tea");
 // console.log(tea);
 
