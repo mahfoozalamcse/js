@@ -1,4 +1,4 @@
-console.log();
+console.log(); 
 // data type in javascript
 
 // Boolean
