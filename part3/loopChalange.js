@@ -9,7 +9,7 @@ for (let index = 0; index < tea.length; index++) {
     } 
     selectedTeas.push(tea[index]);
 }
-console.log(selectedTeas);
+console.log(selectedTeas); 
 
 // scip jasmin tea 
 let tea1 = ["oolong tea", "masala tea", "jaismin tea", "hot tea", "chai", "badam tea"];
