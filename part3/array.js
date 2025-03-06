@@ -11,7 +11,7 @@ console.log(firstTea);
 let tea = ["oolang", "green", "hotTea", "jaisminTea"];
 tea[1] = "masalaTea";
 console.log(tea);
-
+ 
 
 // use push method add element in array
 let cityVisited = [];
