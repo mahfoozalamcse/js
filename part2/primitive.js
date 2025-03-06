@@ -5,7 +5,7 @@ let anotherBalance = new Number(120);
 console.log(balance);
 console.log(anotherBalance);
 console.log(anotherBalance.valueOf());
-
+  
 console.log(typeof balance); // number 
 console.log(typeof anotherBalance); // here convert by the help of new into object data type remember
 
