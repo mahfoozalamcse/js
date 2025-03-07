@@ -22,6 +22,7 @@ addTaskButton.addEventListener('click' , () => {
      
 });
 
+
 // render task first store in tasks arr and run loop and render one by one
 function renderTask(task) {
     const li = document.createElement('li')
