@@ -1,5 +1,6 @@
 // use for loop travese on array and store all element till we get chai
 
+
 let tea = ["oolong tea", "masala tea", "jaismin tea", "hot tea", "chai", "badam tea"];
 let selectedTeas = [];
 for (let index = 0; index < tea.length; index++) {
@@ -8,7 +9,7 @@ for (let index = 0; index < tea.length; index++) {
     } 
     selectedTeas.push(tea[index]);
 }
-console.log(selectedTeas);
+console.log(selectedTeas); 
 
 // scip jasmin tea 
 let tea1 = ["oolong tea", "masala tea", "jaismin tea", "hot tea", "chai", "badam tea"];
@@ -42,6 +43,7 @@ for (const element of num2) {
     newNum2.push(element);
 }
 console.log(newNum2);
+
 
 // use for in loop contain population and store till find berlin stop store in newPopulaton
 let cityPopulation = {

@@ -1,16 +1,18 @@
 let userName = {};
 
 console.log(userName);
+
 console.log(typeof userName);  
 
 const obj = { // they take large memory reserve and use multiple 
     userName : "Mahfooz", // const here effect you change variable easily
-    "last Name" : "Alam",
+    "last Name" : "Alam", 
     isLoggdin : true,
 }
 
 // console.log(obj.lastName); // not print
 console.log(obj["last Name"]);
+
 
 
 
@@ -40,6 +42,7 @@ console.log(hero);
 console.log("1"+ 1);
 console.log(1 + "1");
 console.log(1 + true);
+
 
 let value = "2abc";
 console.log(Number(value));

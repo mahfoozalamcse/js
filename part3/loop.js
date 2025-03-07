@@ -3,6 +3,7 @@
 let sum = 0;
 let i = 1;
 while (i <= 5) {
+    
     sum = sum + i;
     i++;
 }
@@ -10,6 +11,7 @@ console.log(sum);
 
 // write array countDown and push element in array 
 let countDown = [];
+
 let j = 5;
 while (j>0) {
     countDown.push(j);

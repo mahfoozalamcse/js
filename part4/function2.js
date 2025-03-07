@@ -1,5 +1,6 @@
 // take function inside function
 // passed function as variable
+
 function makeTea(typeofTea){
     return `make tea ${typeofTea}`
 };
@@ -19,6 +20,7 @@ function createTeaMaker(name){
         return `Making ${teaType} and strange js ${name} is ${score}`
     };
 }
+
 let teaMake = createTeaMaker("mahfooz");
 let result = teaMake("Lamon tea");
 console.log(result);

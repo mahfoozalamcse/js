@@ -1,5 +1,5 @@
 let gameName = "spiderMan";
-gameName = "batsMan";
+gameName = "batsMan"; 
 console.log(gameName);
 
 

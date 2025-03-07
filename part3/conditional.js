@@ -4,7 +4,8 @@
 let num1 = 12;
 let num2 = 13;
 if (num1 > num2) {
-    console.log(num1);
+    
+    console.log(num1); 
     
 }else{
     console.log(num2);
@@ -14,6 +15,7 @@ if (num1 > num2) {
 // check string is equal to another string
 
 let userName = "Mahfooz";
+
 let userName2 = "Alam";
 
 if (userName === userName2) {

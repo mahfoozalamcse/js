@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
 
  const cart = [];
 
- const productList = document.getElementById("product-list");
+ const productList = document.getElementById("product-list"); 
  const cartItems = document.getElementById("cart-items");
  const emptyCartMassage = document.getElementById("empty-cart");
  const cartTotalMassage = document.getElementById("cart-total");
