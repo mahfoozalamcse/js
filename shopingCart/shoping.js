@@ -61,7 +61,9 @@ document.addEventListener("DOMContentLoaded", ()=>{
 
         totalPriceDisplay.textContent =`${totalPrice.toFixed(2)}`;
        })
+       
     }else{
+
         emptyCartMassage.classList.remove("hidden");
         totalPriceDisplay.textContent =`$0.00`;
     }
