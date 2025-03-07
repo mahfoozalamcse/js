@@ -38,10 +38,11 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+
 button:hover {
     background: #218838;
 }
-.cart {
+.cart { 
     
     margin-top: 20px;
     background: #f1f1f1;
