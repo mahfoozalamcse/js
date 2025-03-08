@@ -35,6 +35,7 @@ let newStr = oldString + newString;
 
 console.log(newStr);
 
+
 let strAdd = oldString + " " + newStr;
 console.log(strAdd);
 
