@@ -34,6 +34,7 @@ console.log(result);
 const greet2 = () =>{};
 
 
+
 const calculatePrice = (price, quantity) => price*quantity;
 console.log(calculatePrice(250, 29830));
 
