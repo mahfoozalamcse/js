@@ -14,6 +14,7 @@ let proceesOrder = orderTea(makeTea);
 // function pass inside function is example of higher order eg. foreach loop use 
 
 // practice
+
 function createTeaMaker(name){
     let score = 100;
     return function(teaType){
