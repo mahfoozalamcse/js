@@ -27,7 +27,6 @@ if (document.getElementById("counter")) {
 
 if (document.getElementById("itemList")) {
     
-    
     let input = document.getElementById("itemInput");
     let addItemBtn = document.getElementById("addItem");
     let itemList = document.getElementById("itemList");
