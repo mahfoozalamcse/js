@@ -48,5 +48,6 @@ function Drink(name){
     }
     this.name = name;
 }
+
 let tea1 = new Drink("tea");
 let coffiee = Drink("coffie");
