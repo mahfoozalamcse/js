@@ -40,6 +40,7 @@ console.log(strAdd);
 
 // best use backtics
 
+
 let addStr = `Mahfooz ${oldString} and ${newString}`
 console.log(addStr);
 

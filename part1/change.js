@@ -12,6 +12,7 @@ console.log(userName);
 // const
 
 const cityName = "Varansi";
+
 // cityName = "Noida"; give error
 console.log(cityName);
 

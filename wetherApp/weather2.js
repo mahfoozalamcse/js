@@ -21,6 +21,7 @@ document.getElementById("get-weather-button").addEventListener("click", () => {
                 document.getElementById("error-message").classList.add("hidden");
             }
         })
+        
         .catch(() => {
             document.getElementById("error-message").classList.remove("hidden");
             document.getElementById("weather-info").classList.add("hidden");

@@ -56,12 +56,14 @@ console.log(num4 > num3);
 
 
 // logical operator
+
 // && , || , !
 console.log(0 && 1);
 console.log(0 || 1);
 console.log(0 != 1);
 
 // assighnment operator
+
 let sum5 = 29 + 11;
 let sum6 = 11;
 console.log(sum6);

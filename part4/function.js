@@ -36,6 +36,7 @@ const greet2 = () =>{};
 const calculatePrice = (price, quantity) => price*quantity;
 console.log(calculatePrice(250, 29830));
 
+
 // when use DOM than not use arrow
 // due they pass window but they have
 // use normal funtion wich pass using this key in window 

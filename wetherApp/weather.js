@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
             showError();
         }
 
+        
     })
 
     async function fetchWeatherdata(city) {

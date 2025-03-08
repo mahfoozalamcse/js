@@ -59,6 +59,7 @@ document.addEventListener('DOMContentLoaded', () =>{
         totalAmount = calculateTotal();
         totalAmountDisplay.textContent = totalAmount.toFixed(2);
     }
+    
 
     expanseList.addEventListener('click', (e) =>{
         

@@ -21,6 +21,7 @@ function createTeaMaker(name){
     };
 }
 
+
 let teaMake = createTeaMaker("mahfooz");
 let result = teaMake("Lamon tea");
 console.log(result);
