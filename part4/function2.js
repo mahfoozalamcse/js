@@ -15,6 +15,7 @@ let proceesOrder = orderTea(makeTea);
 
 // practice
 
+
 function createTeaMaker(name){
     let score = 100;
     return function(teaType){
