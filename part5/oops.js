@@ -15,6 +15,7 @@ let genricCar = {tyres : 4};
 let tesla = {
     Driver : "AI",
 }
+
 Object.setPrototypeOf(tesla, genricCar);
 console.log(tesla);
 console.log(tesla.tyres);
