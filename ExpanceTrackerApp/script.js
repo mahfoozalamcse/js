@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () =>{
     const expanseList = document.getElementById("expence-list");
     const totalAmountDisplay = document.getElementById("total-amount");
 
-    let expenses = JSON.parse(localStorage.getItem('expenses')) || []; 
+    let expenses = JSON.parse(localStorage.getItem('expenses')) || [];  
     let totalAmount  = calculateTotal();
 
     renderExpenses();
