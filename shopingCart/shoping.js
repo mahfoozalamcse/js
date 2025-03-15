@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
     {id : 4, name : "Product 4", price : 58.90},
  ];
   
- const cart = [];
+ const cart = []; 
 
  const productList = document.getElementById("product-list"); 
  const cartItems = document.getElementById("cart-items");
