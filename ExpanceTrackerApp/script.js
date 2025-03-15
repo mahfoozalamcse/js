@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () =>{
 
     renderExpenses();
 
-    expanseForm.addEventListener('submit', (e) =>{
+    expanseForm.addEventListener('submit', (e) =>{ 
         e.preventDefault();
         const name = expanseNameInput.value.trim();
         const amount = parseFloat(expanseAmountInput.value.trim());
