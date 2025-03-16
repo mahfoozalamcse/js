@@ -5,7 +5,7 @@ let tea = ["oolong tea", "masala tea", "jaismin tea", "hot tea", "chai", "badam 
 let selectedTeas = [];
 for (let index = 0; index < tea.length; index++) {
     if (tea[index] === 'chai') {
-        break;
+        break; 
     } 
     selectedTeas.push(tea[index]);
 }
