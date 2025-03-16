@@ -1,7 +1,8 @@
 let gameName = "spiderMan";
 gameName = "batsMan"; 
 console.log(gameName);
- 
+
+
 // var
 var userName = "Mahfooz";
 userName = "Alam"
