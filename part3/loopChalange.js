@@ -1,7 +1,7 @@
 // use for loop travese on array and store all element till we get chai
 
 
-let tea = ["oolong tea", "masala tea", "jaismin tea", "hot tea", "chai", "badam tea"];
+let tea = ["oolong tea", "masala tea", "jaismin tea", "hot tea", "chai", "badam tea"]; 
 let selectedTeas = [];
 for (let index = 0; index < tea.length; index++) {
     if (tea[index] === 'chai') {
