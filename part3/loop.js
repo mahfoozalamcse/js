@@ -1,5 +1,5 @@
 // loop 
-// print sum 1 to 5 
+// print sum 1 to 5  
 
 let sum = 0;
 let i = 1;
