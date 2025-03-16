@@ -4,7 +4,7 @@ console.log(userName);
 
 console.log(typeof userName);  
 
-const obj = { // they take large memory reserve and use multiple 
+const obj = { // they take large memory reserve and use multiple  
     userName : "Mahfooz", // const here effect you change variable easily
     "last Name" : "Alam", 
     isLoggdin : true,
