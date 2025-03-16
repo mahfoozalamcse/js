@@ -3,6 +3,7 @@
 let teaFlavour = ["oolang", "green", "hotTea"];
 console.log(teaFlavour);
 
+
 let firstTea = teaFlavour[0];
 console.log(firstTea);
 
