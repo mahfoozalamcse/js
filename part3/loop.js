@@ -14,7 +14,7 @@ let countDown = [];
 
 let j = 5;
 while (j>0) {
-    countDown.push(j);
+    countDown.push(j); 
     j--;
 }
 console.log(countDown);
