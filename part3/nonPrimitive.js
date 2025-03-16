@@ -11,7 +11,7 @@ const obj = { // they take large memory reserve and use multiple
 }
 
 // console.log(obj.lastName); // not print
-console.log(obj["last Name"]);
+console.log(obj["last Name"]); 
 
 
 
