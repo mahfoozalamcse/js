@@ -1,4 +1,4 @@
-// conditional challanges
+ // conditional challanges
 
 // 1. check number greater
 let num1 = 12;
