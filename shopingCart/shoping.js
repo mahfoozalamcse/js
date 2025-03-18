@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
  const productList = document.getElementById("product-list"); 
  const cartItems = document.getElementById("cart-items");
  const emptyCartMassage = document.getElementById("empty-cart");
- const cartTotalMassage = document.getElementById("cart-total");
+ const cartTotalMassage = document.getElementById("cart-total"); 
  const totalPriceDisplay = document.getElementById("total-price");
  const checkOutbtn = document.getElementById("checkout-btn");
 
