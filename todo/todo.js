@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () =>{
    const todoInput = document.getElementById("taskInput");
    const addTaskButton = document.getElementById("addTaskButton");
    const todoList = document.getElementById("taskList");
- 
+   
     let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
     tasks.forEach((task) => renderTask(task))
   
