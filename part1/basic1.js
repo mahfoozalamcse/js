@@ -5,7 +5,7 @@ console.log();
 // String
 // BigInt
 // undefined
-// null // 0 type object
+// null // 0 type object 
 // Number
 // Object
 // Symbol // use for unique
