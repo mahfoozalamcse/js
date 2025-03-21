@@ -1,6 +1,6 @@
 //1. Declare and access first element
 
-let teaFlavour = ["oolang", "green", "hotTea"];
+let teaFlavour = ["oolang", "green", "hotTea"]; 
 console.log(teaFlavour);
 
 
