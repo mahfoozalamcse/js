@@ -1,5 +1,5 @@
 let userName = {}; 
-
+ 
 console.log(userName);
 
 console.log(typeof userName);  
