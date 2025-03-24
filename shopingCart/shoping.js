@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", ()=>{
- const products = [  
+ const products = [   
     {id : 1, name : "Product 1", price : 28.00},
     {id : 2, name : "Product 2", price : 18.70},
     {id : 3, name : "Product 3", price : 48.90},  
