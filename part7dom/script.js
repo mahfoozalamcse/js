@@ -5,7 +5,7 @@ if (document.getElementById("counter")) {
     let count = 0;
 
     document.getElementById("increment").addEventListener("click", function () {
-        count++; 
+        count++;  
         
         counter.textContent = count;
     });
