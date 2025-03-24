@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () =>{
-
+ 
     const expanseForm = document.getElementById("expence-form");  
     const expanseNameInput = document.getElementById("expence-name");  
     const expanseAmountInput = document.getElementById("expence-amount");  
