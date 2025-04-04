@@ -1,6 +1,6 @@
 let gameName = "spiderMan";
 gameName = "batsMan";  
-console.log(gameName); 
+console.log(gameName);  
 
 
 // var
