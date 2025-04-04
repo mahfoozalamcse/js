@@ -3,7 +3,7 @@ console.log();
 
 // Boolean
 // String
-// BigInt
+// BigInt 
 // undefined
 // null // 0 type object 
 // Number
