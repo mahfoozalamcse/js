@@ -6,7 +6,7 @@ console.log();
 // BigInt 
 // undefined
 // null // 0 type object 
-// Number
+// Number 
 // Object
 // Symbol // use for unique
 
