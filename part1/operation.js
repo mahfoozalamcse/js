@@ -2,7 +2,7 @@ let add = 4 + 5;
 console.log(add); 
  
 let sum = 90; 
-
+ 
 let addition = add + sum;
 console.log(addition);
 
