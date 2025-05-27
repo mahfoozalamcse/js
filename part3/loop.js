@@ -8,7 +8,7 @@ while (i <= 5) {
     sum = sum + i;
     i++;
 }
-console.log(sum);
+console.log(sum); 
 
 // write array countDown and push element in array 
 let countDown = [];
