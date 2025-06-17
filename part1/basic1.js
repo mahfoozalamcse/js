@@ -12,7 +12,7 @@ console.log();
 
 // variable
  
-var score = 10; 
+var score = 10;
 console.log(score);
 
 const num = 19;
