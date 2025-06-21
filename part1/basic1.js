@@ -1,6 +1,5 @@
 console.log();   
 // data type in javascript
-
 // Boolean
 // String
 // BigInt 
