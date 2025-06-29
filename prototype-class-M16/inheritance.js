@@ -7,6 +7,7 @@ class Laptop {
     this.ram = ram;
     this.processor = processor;
     this.generation = generation;
+    
   }
 }
 
