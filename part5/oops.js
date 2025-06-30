@@ -4,10 +4,11 @@ let lenovo = {screen : "HD",
               __proto__: computer,
 
 
+
 };
 let apple = {quality : "Good"};
 
-// console.log(`computer `, computer.__proto__);
+// console.log(`computer `, computer.__proto__); 
 // console.log(`lanovo `, lenovo.__proto__);
 
 // lets understand with real example
