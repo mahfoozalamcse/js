@@ -1,10 +1,11 @@
 let car = {
     make : "Toyota",
     model : "Camery",
-    year : 2020, 
+    year : 2020,
     start : function(){
        return `${this.make} car got started in ${this.year} `
     },
+    
 };
 // console.log(car.start());
 
