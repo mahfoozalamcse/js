@@ -15,6 +15,7 @@ console.log();
 var score = 10;
 console.log(score);
 
+
 const num = 19;
 console.log(num);
 
