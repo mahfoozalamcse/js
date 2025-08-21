@@ -10,6 +10,7 @@ console.log();
 // Symbol // use for unique
 
 // variable
+
  
 var score = 10;
 console.log(score);
