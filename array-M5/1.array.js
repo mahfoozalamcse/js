@@ -14,6 +14,7 @@ let arrLength = studentsName.length;
 
 for (let i=0; i<arrLength; i++){
     console.log(studentsName[i]) // studentsName[10]
+    
 }
 
 /** for let of */
