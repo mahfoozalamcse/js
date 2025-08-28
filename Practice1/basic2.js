@@ -7,6 +7,7 @@
 //  console.log("Glow" < "Lowy");
 
 //  console.log("2" > 3);
+
  
 //  console.log("01" == 1);
 //  // strict equals
