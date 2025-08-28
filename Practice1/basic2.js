@@ -17,6 +17,7 @@
 //  console.log(null == undefined);
 //  console.log(null === undefined);
 
+
 //  console.log(null > 1);
 //  console.log(null < 1);
 //  console.log(null == 0); // here null is null
