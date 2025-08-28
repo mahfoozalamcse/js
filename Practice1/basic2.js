@@ -37,6 +37,7 @@
 // const userName = readlineSync.question("May i know your name..");
 // const userAge = readlineSync.question("May i know your age...");
 
+
 // if (userAge >= 18) {
 //     console.log(`Welcome ${userName} you are eligible to give this exam in age ${userAge} `);
     
