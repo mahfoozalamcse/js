@@ -13,8 +13,6 @@ for (let index = 0; index < user.length; index++) {
     
 }
 
-
-
 let count = 0;
 for (let char of user){
     if (char === "e"){
