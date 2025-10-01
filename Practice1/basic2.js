@@ -7,6 +7,7 @@
 //  console.log("Glow" < "Lowy");
 
 //  console.log("2" > 3);
+
  
 //  console.log("01" == 1);
 //  // strict equals
@@ -16,6 +17,7 @@
 //  console.log(null == undefined);
 //  console.log(null === undefined);
 
+
 //  console.log(null > 1);
 //  console.log(null < 1);
 //  console.log(null == 0); // here null is null
@@ -24,6 +26,7 @@
 //  let userAge = 23;
 //  if (userAge >= 23) {
 //     console.log("Mahfooz");
+
     
 //  }else{
 //     console.log("User not enter..");
@@ -34,6 +37,7 @@
 // const readlineSync = require("readline-sync");
 // const userName = readlineSync.question("May i know your name..");
 // const userAge = readlineSync.question("May i know your age...");
+
 
 // if (userAge >= 18) {
 //     console.log(`Welcome ${userName} you are eligible to give this exam in age ${userAge} `);
@@ -60,6 +64,7 @@
 //     console.log("Not divisible by 3 and 5 both.. ");
     
 // }
+
 
 
 // Nested conditional statment

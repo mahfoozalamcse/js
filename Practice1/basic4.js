@@ -22,6 +22,7 @@
 // let math3 = 60;
 // if (phy1 >= 85 || chem2 <= 85 || math3 >= 90) {
 //     console.log("You eligible");
+
     
 // }else{
 //     console.log("Not eligible. ");
