@@ -23,6 +23,8 @@
 let arr = [72, 101, 108, 108, 111];
 
 let result = arr.reduce((acc , code) => acc + String.fromCharCode(code), "");
+
+
 console.log(result);
 
 
