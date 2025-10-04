@@ -14,6 +14,7 @@
 // let fullName = fName.concat(" ", lName);
 // console.log(fullName);
 
+
 // // 4. join array
 // let a = ["Hello", "world", "from", "Mahfooz"];
 // let s = a.join(" ");

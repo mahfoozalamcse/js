@@ -27,6 +27,7 @@ const html = `<h1>${title}</h1>`;
 console.log(html);
 
 // conditional in template litrals
+
 const mahfooz = true;
 const user = `User : ${mahfooz ? "mahfooz" : "Guest"}.`;
 console.log(user);
