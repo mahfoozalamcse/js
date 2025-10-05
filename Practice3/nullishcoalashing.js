@@ -12,8 +12,10 @@ const hooka1 = {
     bar: 0 
 } 
 
+
 const valueBar = hooka1.bar ?? 52; 
 const valueBaz = foo.baz ?? 32; 
+
 
 // Value of bar: 0 
 console.log("Value of bar: ", valueBar); 
