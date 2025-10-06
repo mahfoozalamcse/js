@@ -132,7 +132,56 @@ function add(x, y, z) {
 let arr5 = [10, 20, 30];
 console.log(add(...arr5));
 
+// Passing Array Elements as Function Parameters
+function add(x, y, z) {
+  return x + y + z;
+}
+
+let arr6 = [10, 20, 30];
+console.log(add(...arr6));
+
+// Copying Array using Spread
+const arr7 = [1, 2, 3];
+const arr8 = [...arr7]; 
+console.log(arr8); 
+
+
+// Spread operator for array concatenation
+let arr9 = [1, 2, 3];
+let arr10 = [4, 5];
+
+arr9 = [...arr9, ...arr10];
+console.log(arr9);
+
+// working of array with spread
+
+const usr = {
+    name: 'Mahfooz',
+    age: 22
+};
+
+const cloneUsr = { ...usr };
+console.log(cloneUsr);
+
+// another example
+const usr1 = {
+    name: 'Alam',
+    age: 22,
+};
+
+const usr2 = {
+    name: "mahfooz",
+    location: "UAE"
+};
+
+const mergedUsers = { ...usr1, ...usr2 };
+console.log(mergedUsers);
+
 // 
+const object1 = { a: 1, b: 2 };
+const object2 = { ...object1, b: 3, c: 4 };
+console.log(object2);
+
 
 
 
