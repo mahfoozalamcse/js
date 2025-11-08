@@ -5,6 +5,7 @@ var massage = "Hello mahfooz";
 massage = "Prakash"
 // console.log(massage);
 
+
 let mas1 = "hiiii..";
 // console.log(mas1);
 
