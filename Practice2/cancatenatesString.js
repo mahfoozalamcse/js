@@ -12,6 +12,7 @@
 
 // // 3. using concate
 // let fullName = fName.concat(" ", lName);
+
 // console.log(fullName);
 
 
