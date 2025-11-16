@@ -8,6 +8,7 @@ const arr = [1, 2, 3, 4, 5, 6];
 
 function getSum(acc, cur) {
   return acc + cur; // 3 + 3
+  
 }
 
 Array.prototype.myReduce = function (callback, initalValue) {
@@ -18,6 +19,7 @@ Array.prototype.myReduce = function (callback, initalValue) {
     acc = callback.call(this, acc, this[i], i, this);
   }
   return acc;
+  
 };
 
 const total = arr.myReduce(getSum, 8);
