@@ -8,6 +8,7 @@ for (let item of a) {
 // 2. for each loop
 let b = [10, 20, 30, 40, 50];
 b.forEach((item) => {
+    
     console.log(item);
 });
 
