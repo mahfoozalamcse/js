@@ -6,6 +6,7 @@ massage = "Prakash"
 // console.log(massage);
 
 
+
 let mas1 = "hiiii..";
 // console.log(mas1);
 
@@ -30,6 +31,7 @@ const mas4 = "Hey";
 
 
 // variable naming convensions
+
 let userName;  // camel case 
 let age;
 let Age; // variable case sensitive
@@ -48,6 +50,7 @@ let userName1 = "Mahfoz";
 
 
 // Number
+
 let num = 12;
 // console.log(num);
 // console.log(typeof num);
