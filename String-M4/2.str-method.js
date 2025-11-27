@@ -10,6 +10,7 @@ const asciiCode = displayMessage.charCodeAt(index);
 console.log(`The acsii code of ${char} is ${asciiCode}`)
 
 
+
 /**
  * exercise to encode
  * geeks --> iffmu
