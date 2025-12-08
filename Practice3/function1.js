@@ -16,6 +16,7 @@
     let nextValObj = generate.next();
     
     // Console out the value of the object
+
     console.log(nextValObj.value);
     
     // Console out next iterations
