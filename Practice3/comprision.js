@@ -14,6 +14,7 @@ console.log();
 console.log(NaN == NaN);
 console.log(0 == false);   
 console.log(0 == null);
+
 */
 
 // enequality check !=
