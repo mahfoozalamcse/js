@@ -18,6 +18,7 @@ let promise = new Promise((resolve, reject) => {
   }
 });
 
+
 promise
   .then((response) => console.log(response))
   .catch(function (err) {
