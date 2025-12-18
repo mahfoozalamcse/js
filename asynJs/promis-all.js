@@ -14,6 +14,7 @@ promise
   .then((response) => response.forEach((data) => console.log(data.url)))
   .catch((err) => console.log(err.message));
 
+
 // let promise1 = new Promise((resolve) =>
 //   setTimeout(() => resolve("Promise 1 resolved"), 3000)
 // );
