@@ -2,6 +2,7 @@
 let user = {
     name: "Mahfooz",
     role: "SDE"
+    
 };
 
 console.log(user);
