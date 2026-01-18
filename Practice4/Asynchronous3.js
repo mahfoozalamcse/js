@@ -9,7 +9,6 @@ checkEven
     .catch((error) => console.error(error)); // On failure
 
 
-
 // 1. Promise.all() Method
 Promise.all([
     Promise.resolve("Task 1 completed"),
