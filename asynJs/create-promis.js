@@ -8,6 +8,7 @@ const db = [
   { id: 1, name: "mahfooz" },
   { id: 2, name: "prakash" },
 ];
+
 let promise = new Promise((resolve, reject) => {
   if (isRequestSuccessful) {
     setTimeout(() => resolve(db), 3000);
