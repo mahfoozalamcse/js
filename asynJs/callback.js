@@ -7,7 +7,6 @@
 function outer(callback) {
   callback();
 }
-
 function showMessage() {
   console.log("Hello from callback function");
 }
