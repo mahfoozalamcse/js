@@ -5,12 +5,11 @@
  * So the functions can be assigned to any other variable or passed as an argument or can be returned by another function.
  * -- Souce: geeksforgeeks Article
  */
-
 // 01
+
 // const greetMessage = function (){
 //     console.log("Hello mahfooz welcome to geeks!!!");
 // }
-
 // greetMessage();
 
 // 02
