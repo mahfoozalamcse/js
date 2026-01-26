@@ -5,8 +5,6 @@ var massage = "Hello mahfooz";
 massage = "Prakash"
 // console.log(massage);
 
-
-
 let mas1 = "hiiii..";
 // console.log(mas1);
 
@@ -25,11 +23,9 @@ mas3 = "yes";
 // console.log(mas3);
 
 const mas4 = "Hey";
+
 // const mas5; const need define and intialize both
-
 // console.log(mas4);
-
-
 // variable naming convensions
 
 let userName;  // camel case 
