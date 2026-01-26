@@ -13,7 +13,6 @@ function debounce(callback, delay) {
     }, delay);
   };
 }
-
 const deboouncedInputHandler = debounce(inputHanlder, 500);
 
 input.addEventListener("keyup", deboouncedInputHandler);
