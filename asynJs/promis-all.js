@@ -2,7 +2,6 @@
  * Promise.all([arrayOfPromise])
  * https://api.github.com/users/prakashsakari
  */
-
 let users = ["mahfoozalamcse", "AshishJangra27"];
 
 let arrOfPromises = users.map((user) =>
