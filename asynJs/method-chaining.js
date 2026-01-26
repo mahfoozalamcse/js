@@ -1,7 +1,6 @@
 /**
  * Promise
  */
-
 const hotelName = "The Taj Palace";
 
 function bookHotel(hotel) {
