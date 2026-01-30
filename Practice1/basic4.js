@@ -15,7 +15,6 @@
 //     console.log("Your score less than passing marks.. ");
     
 // }
-
 // // 
 // let  phy1 = 70;
 // let chem2 = 85;
