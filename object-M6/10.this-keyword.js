@@ -13,5 +13,4 @@ const user1 = {
     showMessage();
   },
 };
-
 user1.showName();
