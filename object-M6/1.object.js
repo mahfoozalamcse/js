@@ -13,8 +13,6 @@ const personObject = {
 
 // console.log(personObject.age);
 // console.log(personObject.name);
-
-
 console.log(personObject["name"]);
 console.log(personObject["job"]);
 console.log(personObject["is Admin"]);
