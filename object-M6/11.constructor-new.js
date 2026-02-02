@@ -5,7 +5,6 @@
 They are named with capital letter first.
 They should be executed only with "new" operator.
  */
-
 function User(name, age) {
   (this.name = name), (this.age = age);
 }
