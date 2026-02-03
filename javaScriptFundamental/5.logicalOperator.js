@@ -5,7 +5,6 @@
  * 3. NOT ! 
  * 4. NULLISH COALESCING ?? 
  */
-
 const physics = 90;
 const maths = 84;
 const chemistry = 83;
