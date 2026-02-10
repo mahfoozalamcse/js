@@ -10,6 +10,7 @@ console.log(x == y);
 
 console.log();
 
+
 // Check against special values
 console.log(NaN == NaN);
 console.log(0 == false);   
