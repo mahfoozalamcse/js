@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () =>{
     let totalAmount  = calculateTotal();
 
     renderExpenses();
-
+ 
     expanseForm.addEventListener('submit', (e) =>{ 
      
         e.preventDefault();
