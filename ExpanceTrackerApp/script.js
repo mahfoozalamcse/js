@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () =>{
 
     let expenses = JSON.parse(localStorage.getItem('expenses')) || [];    
     let totalAmount  = calculateTotal();
-
+ 
     renderExpenses();
  
     expanseForm.addEventListener('submit', (e) =>{ 
