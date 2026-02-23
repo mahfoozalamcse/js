@@ -5,7 +5,6 @@
 // let fullName = `${fName} ${lName}`;
 
 // console.log(fullName);
-
 //2. using + operator
 // let result = fName + " " + lName;
 // console.log(result);
