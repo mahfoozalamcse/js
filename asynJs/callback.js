@@ -15,6 +15,7 @@ outer(showMessage);
 
 // e.g - 02
 
+
 const btn = document.getElementById("btn");
 btn.addEventListener("click", function () {
   console.log("clicked");
