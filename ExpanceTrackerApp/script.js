@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () =>{
  
     renderExpenses();
  
+ 
     expanseForm.addEventListener('submit', (e) =>{ 
      
         e.preventDefault();
